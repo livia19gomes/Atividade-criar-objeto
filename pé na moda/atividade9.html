@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const objeto = {
+            idade: 20,
+            nome: 'Maria'
+        }
+
+        function verificar(objeto, propriedade) {
+            if (propriedade in objeto) {
+                return true
+            } else {
+                return false
+            }
+        }
+        
+        verificar(pessoa, "idade")
+        verificar(pessoa, "nome")
+
+
+        
+    </script>
+</body>
+</html>
